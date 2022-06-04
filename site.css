@@ -4,14 +4,14 @@ body {
 	min-height: 100vh;
 	font-family: Futura, sans-serif;
 }
-#canvas, #dtext {
+#canvas, #dtext, .d1text {
 	position: absolute;
 	display: block;
 	top: 0;
 	left: 0;
 	z-index: -1;
 }
-#dtext {
+#dtext, .d1text {
     column-count: 2;
     column-gap: 10px;
   min-height: 50vh;
@@ -34,4 +34,11 @@ body {
     color: rgb(69, 113, 150);
     text-align: left;
     
+}
+
+#animation_delay{
+    animation-delay: 0.7s;
+}
+#inline{
+    display: inline;
 }
