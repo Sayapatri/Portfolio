@@ -4,25 +4,34 @@ body {
 	min-height: 100vh;
 	font-family: Futura, sans-serif;
 }
-#canvas, #text {
+#canvas, #dtext {
 	position: absolute;
 	display: block;
 	top: 0;
 	left: 0;
 	z-index: -1;
 }
-#text {
-  min-height: 100vh;
-  width: 100vw;
+#dtext {
+    column-count: 2;
+    column-gap: 10px;
+  min-height: 50vh;
+  width: 90vh;
   z-index: 1;
   color: #fff;
   text-transform: uppercase;
-  font-size: 8vmin;
+  font-size: 5vmin;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-#text h1 {
+#dtext h1 {
 	opacity: 0.5
+}
+
+.htext{
+    width: 60vh;
+    color: rgb(69, 113, 150);
+    text-align: left;
+    
 }
