@@ -4,14 +4,14 @@ body {
 	min-height: 100vh;
 	font-family: Futura, sans-serif;
 }
-#canvas, #dtext, .d1text {
+#canvas, #dtext {
 	position: absolute;
 	display: block;
 	top: 0;
 	left: 0;
 	z-index: -1;
 }
-#dtext, .d1text {
+#dtext{
     column-count: 2;
     column-gap: 10px;
   min-height: 50vh;
@@ -41,4 +41,10 @@ body {
 }
 #inline{
     display: inline;
+}
+.atext{
+    color: white;
+    border: 1px;
+    font-size: large;
+    background-color: tomato;
 }
