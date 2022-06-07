@@ -2,10 +2,12 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: 'Press Start 2P', cursive; 
+    text-decoration: none;
 
 }
 body{
-     background-image: url('images/light.gif');
+     
      background-size: cover;
      height: 100%;
      width: 100%;
@@ -14,10 +16,13 @@ body{
      background-color: black;
 }
 .text-centre{
-    text-align: center;
+    text-align: left;
 }
 .relative{
     position: relative;
+}
+.background{
+    background-image: url('images/light.gif');
 }
 .flex{
     display: flex;
@@ -59,4 +64,11 @@ body{
 }
 .invisibile{
     visibility: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.items{
+
 }
