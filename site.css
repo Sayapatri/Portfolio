@@ -35,7 +35,7 @@ body{
     flex-grow: 1;
 }
 .absolute{
-    position: absolute;
+    
 }
 .overflow-h{
     overflow: hidden;
@@ -50,8 +50,8 @@ body{
     pointer-events: none;
 }
 .py{
-    padding: 2rem;
-    padding-bottom: 2rem;
+    
+    align-items: left;
 }
 .max{
     max-width: 100%;
@@ -61,6 +61,8 @@ body{
 }
 .ib{
     display: inline-block;
+    background-color: blueviolet;
+    opacity: 50%;
 }
 .invisibile{
     visibility: hidden;
