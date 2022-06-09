@@ -11,7 +11,7 @@
 }
 :root{
     --bg-color:#ffffff;
-    --text-color:#000;
+    --text-color:rgb(34, 182, 78);
     --main-color: #f75023;
     --big-font: 5rem;
     --h2-font: 3rem;
@@ -39,8 +39,6 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    background-color: red;
-    opacity: 50%;
     padding: 30px 10%;
     transition: .3s;
 }
@@ -102,4 +100,26 @@ header{
     color: var(--bg-color);
     
 
+}
+section{
+    padding: 100px 18%;
+}
+.home{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url(./images/light.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 4rem;
+}
+.home-text{
+    margin: 10px 0px 25px;
+    font-size: var(--big-font);
+    line-height: 1;
+    font-weight: 500;
 }
