@@ -4,10 +4,24 @@
     margin: 0px;
     font-family: 'Press Start 2P', cursive; 
     text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-size: x-small;
+
+}
+:root{
+    --bg-color:#ffffff;
+    --text-color:#000;
+    --main-color: #f75023;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+
 
 }
 body{
-     
+    background: var(--bg-color);
+    color: var(--text-color);
      background-size: cover;
      height: 100%;
      width: 100%;
@@ -15,65 +29,49 @@ body{
      margin: 0;
      background-color: black;
 }
-.text-centre{
-    text-align: left;
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    background-color: red;
+    opacity: 50%;
+    padding: 30px 18%;
+    transition: .3s;
 }
-.relative{
+.logo img{
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+}
+.navlist{
+    display: flex;
+}
+.navlist li{
     position: relative;
 }
-.background{
-    background-image: url('images/light.gif');
-}
-.flex{
-    display: flex;
+.navlist a{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 27px;
 
 }
-.flex-col {
-    flex-direction: column;
+.navlist a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--main-color);
+    bottom: -3px;
+    left: 0;
+    transition: ease .40s;
 }
-.flex-grow{
-    flex-grow: 1;
-}
-.absolute{
-    
-}
-.overflow-h{
-    overflow: hidden;
-}
-.w-full{
+.navlist a:hover::after{
     width: 100%;
-}
-.am{
-    vertical-align: middle;
-}
-.po{
-    pointer-events: none;
-}
-.py{
-    
-    align-items: left;
-}
-.max{
-    max-width: 100%;
-}
-.ln{
-    line-height: 1.5;
-}
-.ib{
-    display: inline-block;
-    background-color: blueviolet;
-    opacity: 50%;
-}
-.invisibile{
-    visibility: hidden;
-}
-.main{
-    display: flex;
-    flex-direction: row;
-}
-
-#home{
-    height: 50px;
-    width: 50px;
-    
 }
