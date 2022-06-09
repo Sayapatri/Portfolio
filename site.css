@@ -13,7 +13,7 @@
     --bg-color:#ffffff;
     --text-color:rgb(34, 182, 78);
     --main-color: #f75023;
-    --big-font: 5rem;
+    --big-font: 4rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
 
@@ -39,12 +39,12 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 30px 10%;
+    padding: 20px 10%;
     transition: .3s;
 }
 .logo img{
     max-width: 100%;
-    width: 130px;
+    width: 50px;
     height: auto;
 }
 .navlist{
@@ -55,9 +55,9 @@ header{
 }
 .navlist a{
     font-size: var(--p-font);
-    color: var(--text-color);
+    color: var(--bg-color);
     font-weight: 500;
-    padding: 10px 27px;
+    padding: 10px 30px;
 
 }
 .navlist a::after{
@@ -102,7 +102,7 @@ header{
 
 }
 section{
-    padding: 100px 18%;
+    padding: 100px 18% 15px;
 }
 .home{
     min-height: 100vh;
@@ -117,9 +117,74 @@ section{
     align-items: center;
     grid-gap: 4rem;
 }
-.home-text{
+.home-text h1{
     margin: 10px 0px 25px;
     font-size: var(--big-font);
     line-height: 1;
     font-weight: 500;
+}
+.home-text h5{
+    margin-bottom: 23px;
+    font-size: 18px;
+    font-weight: 500;
+}
+span{
+    color: var(--main-color);
+
+
+}
+.home-text h3{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-text p{
+    font-size: var(--p-font);
+    color: white;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.social a{
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: yellowgreen;
+    font-size: 17px;
+    color: var(--bg-color);
+    margin-right: 22px;
+    margin-bottom: 30px;
+
+}
+.social a:hover{
+    transform: scale(1.1);
+    background:var(--main-color);
+    transition: .5s;
+}
+.btn{
+    display: inline-block;
+    color: var(--bg-color);
+    background: var(--main-color);
+    font-size: var(--p-font);
+    padding: 7px 30px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 20px;
+    transition: ease .40s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.home-img img{
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+
+}
+header.sticky{
+    background: black;
+    padding: 13px 18%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 }
