@@ -256,3 +256,48 @@ header.sticky{
     line-height: 28px;
     margin-bottom: 45px;
 }
+
+.headings{
+    text-align:center;
+     
+}
+.headings h2{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 7px 0px 20px;
+    line-height: 1.1;
+
+}
+.headings h3{
+    color: violet;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.blog-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.contact-info{
+    align-items: center;
+    text-align: center;
+
+}
+.contact-info h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact-info h3{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.contact-info p{
+    font-size: 10px;
+    
+    margin-bottom: 2px;
+}
