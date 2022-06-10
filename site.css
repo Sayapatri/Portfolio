@@ -187,4 +187,24 @@ header.sticky{
     background: black;
     padding: 13px 18%;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    opacity: 80%;
 }
+.items{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	text-align: center;
+}
+.sub-box{
+	padding: 45px 45px 45px 45px;
+	transition: ease .50s;
+	cursor: pointer;
+}
+.sub-img img{
+	max-width: 100%;
+	width: 60px;
+	height: auto;
+	margin-bottom: 20px;
+
+
