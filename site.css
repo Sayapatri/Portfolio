@@ -27,7 +27,7 @@ body{
      width: 100%;
      padding: 0;
      margin: 0;
-     background-color: rgb(103, 172, 168);
+     background-color: rgb(32, 34, 34);
 }
 header{
     position: fixed;
@@ -46,6 +46,7 @@ header{
     max-width: 100%;
     width: 50px;
     height: auto;
+    border-radius: 10px;
 }
 .navlist{
     display: flex;
@@ -109,6 +110,7 @@ section{
     height: 100%;
     width: 100%;
     background: url(./images/light.gif);
+    box-shadow: 0 0 2px 5px #191919;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -145,14 +147,14 @@ span{
     margin-bottom: 20px;
 }
 .social a{
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 10%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: yellowgreen;
-    font-size: 17px;
+    background: rgb(26, 24, 24);
+    font-size: 100px;
     color: var(--bg-color);
     margin-right: 22px;
     margin-bottom: 30px;
@@ -181,6 +183,7 @@ span{
     max-width: 100%;
     width: 400px;
     height: auto;
+    box-shadow: 0 0 2px 4px #555;
 
 }
 header.sticky{
@@ -283,6 +286,55 @@ header.sticky{
     text-align: center;
     cursor: pointer;
 }
+
+.col{
+	position: relative;
+}
+.col img{
+	max-width: 100%;
+	width: 550px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 12px;
+}
+.layer{
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 12px;
+	transition: all .40s;
+}
+
+.layer:hover{
+	background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
+}
+
+.layer h3{
+	position: absolute;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 500;
+	color: var(--bg-color);
+	bottom: 80%;
+	left: 0%;
+	opacity: 100%;
+}
+
+.layer h5{
+	position: absolute;
+	width: 100%;
+	font-size:10px;
+	font-weight: 500;
+	color: var(--bg-color);
+	bottom: 60%;
+	left: 0%;
+}
+
+
+
 .contact{
     background: #8067f0;
     height: 100px;
@@ -295,7 +347,7 @@ header.sticky{
     text-align: center;
     background-image: url(./images/motel.webp);
     background-size: cover;
-    background-position-y: 100px;
+    background-position-y: 300px;
     border-radius: 10px;
 }
 .center h2{
