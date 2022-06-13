@@ -404,9 +404,10 @@ header.sticky{
         transition: .3s;
     }
 
-    @media (max-width: 950px){
+    @media (max-width: 500px){
         #menu-icon{
             display: block;
+            color: blanchedalmond;
         }
         .home{
             min-height: 80vh;
@@ -417,8 +418,9 @@ header.sticky{
             left: 0;
             right: 0;
             flex-direction: column;
-            background:var(--main-color);
-            text-align: right;
+            background: rgb(49, 46, 46);
+            border-radius: 10px;
+            text-align: center;
             transition: all .4s;
             
 
