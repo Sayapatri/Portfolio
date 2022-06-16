@@ -83,6 +83,7 @@ header{
 }
 .top-btn{
     display: inline-block;
+    line-height: 15px;
     padding: 9px 28px;
     background: transparent;
     border: 2px solid var(--main-color);
@@ -217,6 +218,7 @@ span{
     width: 400px;
     height: auto;
     box-shadow: 0 0 2px 4px #555;
+    margin-bottom: 50px;
 
 }
 header.sticky{
@@ -273,7 +275,7 @@ header.sticky{
 }
 .about-img img{
     max-width: 100%;
-    width: 400px;
+    width: 450px;
     height: 400px;
     border-radius: 10px;
 
