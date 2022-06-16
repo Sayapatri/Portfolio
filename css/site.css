@@ -376,7 +376,9 @@ header.sticky{
 
 
 .contact{
-    background: #8067f0;
+    
+    background: #131314;
+    background-image: url(/Assests/motel.webp);
     height: 100px;
     width: 70%;
     margin: 100px auto ;
@@ -385,7 +387,7 @@ header.sticky{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-image: url(./Assests/motel.webp);
+    
     background-size: cover;
     background-position-y: 300px;
     border-radius: 10px;
