@@ -2,7 +2,6 @@ let resizeReset = function() {
 	w = canvasBody.width = window.innerWidth;
 	h = canvasBody.height = window.innerHeight;
 }
-
 const opts = { 
 	particleColor: "rgb(200,200,200)",
 	lineColor: "rgb(200,200,200)",
