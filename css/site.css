@@ -385,7 +385,7 @@ header.sticky{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-image: url(./images/motel.webp);
+    background-image: url(./Assests/motel.webp);
     background-size: cover;
     background-position-y: 300px;
     border-radius: 10px;
