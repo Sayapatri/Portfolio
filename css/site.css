@@ -90,9 +90,14 @@ header{
     border-radius: 30px;
     color: var(--text-color);
     letter-spacing: 1px;
-    font-size: var(--p-font);
+    font-size: 8px;
     font-weight: 500;
     transform: ease .50s;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+   
 
 }
 .top-btn:hover{
@@ -102,6 +107,11 @@ header{
     color: var(--bg-color);
     
 
+}
+.coffee{
+    align-items:flex-start;
+    width: 2rem;
+    height: 3rem;
 }
 section{
     padding: 100px 15% 15px;
