@@ -3,8 +3,8 @@ let resizeReset = function() {
 	h = canvasBody.height = window.innerHeight;
 }
 const opts = { 
-	particleColor: "rgb(200,200,200)",
-	lineColor: "rgb(200,200,200)",
+	particleColor: "rgb(107, 221, 141)",
+	lineColor: "paste_your_rgb_code",
 	particleAmount: 30,
 	defaultSpeed: 1,
 	variantSpeed: 1,
