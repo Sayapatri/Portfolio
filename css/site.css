@@ -186,12 +186,12 @@ span{
 .btn{
     display: inline-block;
     color: var(--bg-color);
-    background: red;
+    background: rgb(17, 15, 15);
     font-size: var(--p-font);
-    padding: 10px 35px;
+    padding: 20px 25px;
     font-weight: 500;
-    line-height: 20px;
-    border-radius: 20px;
+    line-height: 10px;
+    border-radius: 15px;
     transition: ease .40s;
 }
 .btn:hover{
